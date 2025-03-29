@@ -345,7 +345,7 @@ vendor/lib64/libFlickerDet.so
 vendor/lib64/libI420colorconvert.so
 vendor/lib64/libMegviiFacepp-0.5.2.so
 vendor/lib64/libSNPE.so
-vendor/lib64/libTrueSight.so
+vendor/lib64/libTrueSight.so;DISABLE_CHECKELF
 vendor/lib64/libaidenoiser.so
 vendor/lib64/libaidenoiserv2.so
 vendor/lib64/libalAILDC.so;DISABLE_CHECKELF
@@ -461,7 +461,7 @@ vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0.so
 vendor/etc/qdcm_calib_data_xiaomi_35_02_0b_cmd_mode_dsc_dsi_panel.xml
 
 # Fingerprint
-vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.lahaina.so
+vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.lahaina.so;FIX_SONAME
 vendor/lib64/libgf_hal.so
 vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
 
